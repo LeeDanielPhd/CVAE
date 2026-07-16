@@ -58,4 +58,5 @@ Full results are available in `evaluation_results.xlsx`.
 └── README.md
 ```
 
+Developed and tested in Google Colab (Python 3.12, CUDA 12.8).
 *Note: `Model/` and `Notebook/` contain multiple iterations from the development process; the final reported results correspond to [NoteBook/CVAE260127].*
