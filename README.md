@@ -37,7 +37,7 @@ Across all 12 conditions, CVAE achieved:
 
 Performance degraded gracefully as missingness increased (e.g., RMSE 1.18 → 1.28 for MCAR at 10% → 50%), rather than showing the abrupt convergence failure reported for MICE at high missingness in the literature. Degradation was more pronounced under MNAR conditions (e.g., negative-uni RMSE 1.47 → 1.67), consistent with the greater difficulty of reconstructing systematically non-random missingness.
 
-Full results are available in `evaluation_results.xlsx`.
+Full result per versions are available in `https://docs.google.com/spreadsheets/d/1PyIyvoJUZUByq9l42EW5VofCBxhEVzk7rFuneFZlFvE/edit?usp=drive_link`.
 
 ---
 
@@ -53,7 +53,6 @@ Full results are available in `evaluation_results.xlsx`.
 │   ├── CVAE0626.ipynb
 │   ├── CVAE260127.ipynb
 │   └── ...
-├── Evaluation.xlsx   # Final results table (accuracy, MAE, RMSE by condition)
 ├── requirements.txt
 └── README.md
 ```
