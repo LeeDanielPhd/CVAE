@@ -1,10 +1,10 @@
-# Feasibility of Missing Value Imputation Using Synthetic Data: CVAE vs. MICE
+# Feasibility of Missing Value Imputation Using Synthetic Data: CVAE
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the codebase for the research project **"A Study on the Feasibility of Missing Data Imputation Using Synthetic Data: Focusing on a Comparison between CVAE and Multiple Imputation."**
+This repository contains the codebase for the research project **"A Study on the Feasibility of Missing Data Imputation Using Synthetic Data: Focus on CVAE."**
 
 This interdisciplinary project bridges deep generative modeling with psychological/behavioral data analysis, addressing missing data in large-scale tabular psychometric datasets. A Conditional Variational Autoencoder (CVAE) is implemented and evaluated as an imputation method for a Big Five personality dataset (N=100,000, 50 items) under multiple missingness patterns and rates.
 
